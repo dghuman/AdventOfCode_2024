@@ -1,0 +1,14 @@
+                match input.trim().parse() {
+                    Ok(inval) => first_vec.push(inval),
+                    Err(_) => panic!("Problem converting and pushing int to vector"),
+                };   		
+
+first_vec.push(input.trim().parse().unwrap());
+
+	    } else {
+		match input.trim().parse() {
+		    Ok(inval) => second_vec.push(inval),
+		    Err(_) => panic!("Problem converting and pushing int to vector"),
+		
+		second_vec.push(input.trim().parse().unwrap());
+
